@@ -37,7 +37,7 @@ public class CadenaServicio {
                 contador++;
             }
         }
-        System.out.printf("Se encontraron ", contador, " vocales dentro de la palabra o frase ingresada.");
+        System.out.printf("Se encontraron " + contador + " vocales dentro de la palabra o frase ingresada.");
     }
 
     public void invertirFrase(Cadena cadena) {
@@ -64,7 +64,7 @@ public class CadenaServicio {
             }
         }
 
-        System.out.printf("Se encontro el caracter '" + caracter + "'', " + contador
+        System.out.printf("Se encontro el caracter '" + caracter + "', " + contador
                 + " veces dentro de la palabra o frase ingresada.");
     }
 
@@ -92,7 +92,7 @@ public class CadenaServicio {
             }
         }
 
-        String fraseResultante = array.toString();
+        String fraseResultante = new String(array);
 
         System.out.println("La frase resultante es: \n" + fraseResultante);
     }

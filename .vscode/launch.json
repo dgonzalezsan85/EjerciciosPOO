@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.danielgonzalez.pooejercicio01.Main",
+            "projectName": "POOEjercicio01"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "com.danielgonzalez.pooejercicio02.Main",
+            "projectName": "POOEjercicio02"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "com.danielgonzalez.pooejercicio03.Main",
+            "projectName": "POOEjercicio03"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "com.danielgonzalez.pooejercicio04.Main",
+            "projectName": "POOEjercicio04"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "com.danielgonzalez.pooejercicio05.Main",
+            "projectName": "POOEjercicio05"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "com.danielgonzalez.pooejercicio06.Main",
+            "projectName": "POOEjercicio06"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "com.danielgonzalez.pooejercicio07.Main",
+            "projectName": "POOEjercicio07"
+        },
+        {
+            "type": "java",
+            "name": "POOEjercicio08",
+            "request": "launch",
+            "mainClass": "com.danielgonzalez.pooejercicio08.POOEjercicio08",
+            "projectName": "POOEjercicio08"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "com.danielgonzalez.pooejercicioextra01.Main",
+            "projectName": "POOEjercicioExtra01"
+        }
+    ]
+}

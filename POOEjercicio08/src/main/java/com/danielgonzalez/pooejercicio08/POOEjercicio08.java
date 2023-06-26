@@ -17,7 +17,9 @@ public class POOEjercicio08 {
 
     public static void main(String[] args) {
 
-        char caracter = "";
+        char caracter = ' ';
+        String letra = "";
+
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
 
         CadenaServicio cs = new CadenaServicio();
@@ -40,7 +42,8 @@ public class POOEjercicio08 {
 
         System.out.println();
         System.out
-                .println("Ingrese una frase para comparar con la longitud la frase o palabra ingresada inicialmente: ");
+                .println(
+                        "Ingrese una frase para comparar con la longitud de la frase o palabra ingresada inicialmente: ");
         String frase = leer.next();
         System.out.println();
         cs.compararLongitud(frase, cadena);
@@ -56,6 +59,17 @@ public class POOEjercicio08 {
                 "Ingrese un caracter para reemplzar todas las 'a' en la frase o palabra ingresada inicialmente: ");
         String caracter2 = leer.next();
         System.out.println();
-        cs.unirFrases(caracter2, cadena);
+        cs.reemplazar(caracter2, cadena);
+
+        System.out.println();
+        System.out.println(
+                "Ingrese un letra para ser buscada en la frase o palabra ingresada inicialmente: ");
+        letra = leer.next();
+        System.out.println();
+        if (cs.contiene(letra, cadena)) {
+            System.out.println("La letra fue encontrada");
+        } else {
+            System.out.println("La letra NO fue encontrada");
+        }
     }
 }

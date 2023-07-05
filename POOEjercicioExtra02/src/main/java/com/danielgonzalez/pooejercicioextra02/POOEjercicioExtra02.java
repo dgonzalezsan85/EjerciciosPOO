@@ -4,6 +4,8 @@
 
 package com.danielgonzalez.pooejercicioextra02;
 
+import com.danielgonzalez.pooejercicioextra02.Servicios.PuntosServicio;
+
 /**
  *
  * @author danielgonzalez
@@ -11,6 +13,11 @@ package com.danielgonzalez.pooejercicioextra02;
 public class POOEjercicioExtra02 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        PuntosServicio ps = new PuntosServicio();
+
+        ps.crearPuntos();
+
+        ps.calcularDistancia();
+
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "POOEjercicioExtra05",
+            "request": "launch",
+            "mainClass": "com.danielgonzalez.pooejercicioextra05.POOEjercicioExtra05",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "POOEjercicioExtra03",
             "request": "launch",
             "mainClass": "com.danielgonzalez.pooejercicioextra03.POOEjercicioExtra03",
